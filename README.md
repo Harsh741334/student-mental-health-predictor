@@ -2,18 +2,18 @@
 
 A machine learning-powered web application that predicts depression risk in students based on various lifestyle and academic factors.
 
-## 📋 Features
+## Features
 
 - **Interactive Web Interface**: Built with Streamlit for easy data input
 - **Deep Learning Model**: Keras neural network trained on student mental health data
 - **Real-time Predictions**: Get instant depression risk assessment
 - **Multiple Input Factors**: Considers academic, lifestyle, and personal factors
 
-## 🚀 Live Demo
+## Live Demo
 
-[View Live App](https://your-app-name.streamlit.app) *(Update with your deployed URL)*
+[View Live App](https://studenthealthpridiction.streamlit.app/) *(Update with your deployed URL)*
 
-## 📊 Input Features
+## Input Features
 
 The model considers the following factors:
 
@@ -33,7 +33,7 @@ The model considers the following factors:
 - **Data Processing**: Pandas, NumPy, Scikit-learn
 - **Model**: Neural Network (Dense layers with Dropout)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── MAIN.py                      # Streamlit application
@@ -44,7 +44,7 @@ The model considers the following factors:
 └── .gitignore                   # Git ignore file
 ```
 
-## ⚙️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -54,7 +54,7 @@ The model considers the following factors:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/student-mental-health-predictor.git
+   git clone https://github.com/Harsh741334/student-mental-health-predictor.git
    cd student-mental-health-predictor
    ```
 
@@ -76,10 +76,10 @@ The model considers the following factors:
 
 5. **Open in browser**
    ```
-   http://localhost:8501
+   https://studenthealthpridiction.streamlit.app/
    ```
 
-## 🌐 Deployment
+## Deployment
 
 ### Streamlit Community Cloud (Recommended)
 
@@ -94,25 +94,25 @@ The model considers the following factors:
 - **Render**: Set start command to `streamlit run MAIN.py --server.port $PORT --server.address 0.0.0.0`
 - **Heroku**: Add `Procfile` with `web: streamlit run MAIN.py`
 
-## 📈 Model Performance
+##  Model Performance
 
 - **Architecture**: 64 → 32 → 16 → 1 (Dense layers with ReLU activation)
 - **Output**: Sigmoid activation for binary classification
 - **Training**: Early stopping with patience=6
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This application is for **educational purposes only** and should not be used as a substitute for professional mental health diagnosis or treatment. If you or someone you know is struggling with mental health issues, please seek help from qualified healthcare professionals.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## Support
 
 If you have any questions or need help, please open an issue on GitHub.
 
